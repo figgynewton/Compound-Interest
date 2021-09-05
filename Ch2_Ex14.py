@@ -9,9 +9,6 @@ Enter annual interest rate paid by the account: 5
 Enter the number of times per year that the interest is compunded: 3
 >>> years = float(input("Enter the number of years the account will be left to earn interest: " ))
 Enter the number of years the account will be left to earn interest: 45
->>>  amount = principal*(1+(rate/100)/num)**(num*years)
- 
-SyntaxError: unexpected indent
 >>> amount = principal*(1+(rate/100)/num)**(num*years)
 >>> print("The amount of money that will be in your account after ", years, "years:", round(amount,2))
 The amount of money that will be in your account after  45.0 years: 218.49
